@@ -1,6 +1,6 @@
 print("Pozdrav Uceniče!")
 while True:
-	pitanje = input("Vas zahtjev?:  ").lower()
+	pitanje = input("Vas zahtjev?:  ").lower().strip()
 	if pitanje in ["sta je ekologija?" , "šta je ekologija" , "pojam ekolgije" , "kaj je ekolgija" , "ekolgija" , "ekolgija?" , "sta je ono ekolgija" , "sta je ono ekolgija?" , "sta je ekologija" , "objasni ekologiju" , "pojasni ekologiju"]:
 		print("Ekologija je nauka koja proučava odnose između živih bića i njihove životne sredine.")
 	elif pitanje in ["sta su tvari" , "kaj su tvari" , "tvari su?" , "šta su tvari" , "sta je tvar" , "tvar" , "tvari" , "sta su ono tvari" , "tvari su" , "objasni tvar" , "objasni pojam tvar" , "objasni tvari"]:
@@ -9,7 +9,7 @@ while True:
 		print("Sila je fizička veličina koja opisuje djelovanje jednog tijela na drugo tijelo. Oznaka za silu je F, a mjerna jedinica je njutn (N). Formula za silu je F = m · a, gdje je m masa tijela, a a ubrzanje.")
 	elif pitanje in ["vrsta sila" , "vrste sila" ,"koje su vrste sila" , "koje su vrste sile" , "koje su vrste sila?" , "reci mi za vrste sila" , "nabroj vrste sila"]:
 		print("Vrste sila su gravitaciona sila, sila trenja, elastična sila, električna sila, magnetna sila i sila otpora sredine.")
-	elif pitanje in ["sta je pitagorna teorema" , "objasni mi pitagornu teoremu " , "šta je pitagorna teorema?" , "šta je pitagorna teorema" "pojasni pitagornu teoremu" , "kaj je pitagorna teorema" , "reci mi sta je pitagorna teorema" , "objasni pitagornu teoremu"]:
+	elif pitanje in ["sta je pitagorna teorema" , "objasni mi pitagornu teoremu " , "šta je pitagorna teorema?" , "šta je pitagorna teorema" , "pojasni pitagornu teoremu" , "kaj je pitagorna teorema" , "reci mi sta je pitagorna teorema" , "objasni pitagornu teoremu"]:
 		print("PITAGORINA TEOREMAPitagorina teorema govori kako možemo izračunati dužinu stranice pravouglog trougla kada znamo dužine druge dvije stranice.Pravilo glasi: a² + b² = c².a i b su katete, odnosno kraće stranice pravouglog trougla.c je hipotenuza, odnosno najduža stranica pravouglog trougla. Hipotenuza se uvijek nalazi nasuprot pravom uglu.Ako tražimo hipotenuzu: c = √(a² + b²)Ako tražimo katetu: a = √(c² - b²) ili b = √(c² - a²)Primjer: a = 3 cm, b = 4 cm c² = 3² + 4² ,c² = 9 + 16 ,c² = 25 ,c = 5 cm.Dakle, ako su katete 3 cm i 4 cm, hipotenuza iznosi 5 cm.VAŽNO: Pitagorina teorema može se koristiti samo kod pravouglih trouglova.")
 	elif pitanje in ["primjena pitagorne teoreme" , "objasni primjenu pitagorne teoreme" , "korist pitagorne teoreme"]:
 		print("PRIMJENA PITAGORINE TEOREME: Pitagorina teorema se primjenjuje za izračunavanje nepoznate stranice u pravouglom trouglu kada su poznate druge dvije stranice. Koristi se u matematici, građevinarstvu, arhitekturi, tehnici i svakodnevnom životu. Pomoću Pitagorine teoreme možemo izračunati dužinu dijagonale pravougaonika, dužinu merdevina naslonjenih na zid, udaljenost između dvije tačke i različite druge dužine koje možemo predstaviti pomoću pravouglog trougla. Formula je: a² + b² = c². Pitagorina teorema važi samo za pravougle trouglove.")
